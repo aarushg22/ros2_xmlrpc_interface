@@ -31,7 +31,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            #'ros2_xmlrpc_client = ros2_xmlrpc_interface.ros2_xmlrpc_client:main',
+#            'ros2_xmlrpc_client = ros2_xmlrpc_interface.ros2_xmlrpc_client:main',
             'ros2_xmlrpc_client_new = ros2_xmlrpc_interface.ros2_xmlrpc_client_new:main',
             'task_info_generater = ros2_xmlrpc_interface.task_info_generater:main'
         ],
